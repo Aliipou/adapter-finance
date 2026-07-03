@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adapter-finance"
+version = "0.0.1"
+description = "EXPERIMENTAL Decision OS execution adapter for finance: governed payments/transfers/trades reached only when the kernel permits. No authority."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "PolyForm-Noncommercial-1.0.0" }
+authors = [{ name = "Ali Pourrahim" }]
+dependencies = ["decision-os-min"]
+
+[tool.setuptools]
+packages = ["dos_adapter_finance"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
