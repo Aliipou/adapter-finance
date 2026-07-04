@@ -1,9 +1,12 @@
 __pycache__/
-*.pyc
-.pytest_cache/
-.ruff_cache/
+*.py[cod]
 *.egg-info/
+.eggs/
 build/
 dist/
-.venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
 *.jsonl
+.venv/
+venv/

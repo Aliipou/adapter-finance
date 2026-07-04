@@ -1,5 +1,5 @@
 import pytest
-from decision_os_min import Governor, GovernanceRefused, set_actor
+from decision_os_min import GovernanceRefused, Governor, set_actor
 
 from dos_adapter_finance import governed_tools
 
