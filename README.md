@@ -1,5 +1,7 @@
 # adapter-finance
 
+**Live (graph):** [https://ali-adapter-finance.vercel.app](https://ali-adapter-finance.vercel.app)
+
 Decision OS / AuthGate **execution adapter** for financial actions (payments,
 transfers, trades, refunds). It exposes each action as a **governed tool**: the
 effect *behind* a Policy Enforcement Point, reached only when the
